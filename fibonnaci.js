@@ -16,19 +16,19 @@ fibs(8); //0, 1, 1, 2, 3, 5, 8, 13
 
 // Recursive solution
 function fibsRec(n) {
-  let num = n - 1;
   let arr = [];
 
-  for (let i = 0; i < num; i++) {
+  for (let i = 0; i < n; i++) {
     arr.push(fib(i));
   }
 
-  function fib(num) {
-    if (num <= 1) {
-      return num;
+  function fib(n) {
+    if (n <= 1) {
+      return n;
     }
-    return fib(num - 1) + fib(num - 2);
+    return fib(n - 1) + fib(n - 2);
   }
+  console.log(arr);
   return arr;
 }
 
