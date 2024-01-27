@@ -1,6 +1,6 @@
 # Recursion Exercises
 
-The Odin Project Recursion mini projects; [fibonacci](https://en.wikipedia.org/wiki/Fibonacci_sequence). and [merge sort](https://en.wikipedia.org/wiki/Merge_sort).
+The Odin Project Recursion mini projects; [fibonacci](https://en.wikipedia.org/wiki/Fibonacci_sequence) and [merge sort](https://en.wikipedia.org/wiki/Merge_sort).
 
 ## How to test?
 
